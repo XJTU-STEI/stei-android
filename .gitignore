@@ -1,0 +1,34 @@
+# Gradle and Kotlin caches
+.gradle/
+.kotlin/
+**/build/
+
+# IDE and local machine files
+.idea/
+*.iml
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+.DS_Store
+Thumbs.db
+
+# Build outputs and logs
+*.apk
+*.aab
+*.log
+*.idsig
+
+# Signing material and local signing configuration
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.pk8
+keystore*.properties
+signing*.properties
+key*.properties
+keystore-password.clixml
+
